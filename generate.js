@@ -7,11 +7,11 @@ var plugins = require('./plugins.js')
 var pluginArr = flat(plugins)
 
 // auto-generated index.js
-var indexjs = 'module.exports = [\n' +
+var indexjs = 'module.exports = {plugins:[\n' +
   pluginArr.map(function (plugin) {
     return '  require(\'' + plugin + '\'),'
   }).join('\n') +
-  '\n]'
+  '\n]}'
 
 fs.writeFile('./index.js', indexjs, 'utf8', function (err) {
   if (err) {

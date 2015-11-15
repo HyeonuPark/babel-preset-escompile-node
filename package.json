@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-escompile-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "escompile babel preset for node v4",
   "main": "index.js",
   "scripts": {
