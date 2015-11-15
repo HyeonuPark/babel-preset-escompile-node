@@ -1,0 +1,51 @@
+{
+  "name": "babel-preset-escompile-node",
+  "version": "1.0.0",
+  "description": "escompile babel preset for node v4",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "node generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyeonupark/babel-preset-escompile-node.git"
+  },
+  "keywords": [
+    "babel",
+    "preset",
+    "escompile",
+    "node"
+  ],
+  "author": "HyeonuPark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyeonupark/babel-preset-escompile-node/issues"
+  },
+  "homepage": "https://github.com/hyeonupark/babel-preset-escompile-node#readme",
+  "dependencies": {
+    "babel-plugin-syntax-async-functions": "^6.1.18",
+    "babel-plugin-syntax-exponentiation-operator": "^6.1.18",
+    "babel-plugin-syntax-function-bind": "^6.1.18",
+    "babel-plugin-syntax-object-rest-spread": "^6.1.18",
+    "babel-plugin-dedent": "^2.0.0",
+    "babel-plugin-transform-strict-mode": "^6.1.18",
+    "babel-plugin-transform-async-to-generator": "^6.1.18",
+    "babel-plugin-transform-exponentiation-operator": "^6.1.18",
+    "babel-plugin-transform-function-bind": "^6.1.18",
+    "babel-plugin-transform-es2015-function-name": "^6.1.18",
+    "babel-plugin-transform-es2015-object-super": "^6.1.18",
+    "babel-plugin-transform-es2015-for-of": "^6.1.18",
+    "babel-plugin-transform-es2015-sticky-regex": "^6.1.18",
+    "babel-plugin-transform-es2015-unicode-regex": "^6.1.18",
+    "babel-plugin-transform-es2015-spread": "^6.1.18",
+    "babel-plugin-transform-es2015-parameters": "^6.1.18",
+    "babel-plugin-transform-es2015-destructuring": "^6.1.18",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.1.20",
+    "babel-plugin-transform-object-rest-spread": "^6.1.18"
+  },
+  "devDependencies": {
+    "flat-string": "^1.0.0",
+    "npm": "^3.4.0",
+    "semver": "^5.0.3"
+  }
+}
