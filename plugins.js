@@ -5,7 +5,7 @@ module.exports = {
       prefix: 'syntax-',
       items: [
         'async-functions',
-        //'decorators',
+        'decorators',
         'exponentiation-operator',
         'function-bind',
         'object-rest-spread'
@@ -17,7 +17,8 @@ module.exports = {
       items: [
         'strict-mode',
         'async-to-generator',
-        //'decorators',
+        // 'decorators',
+        'decorators-unofficial',
         'exponentiation-operator',
         'function-bind',
         'object-rest-spread',
