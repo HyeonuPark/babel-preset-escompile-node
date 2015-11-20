@@ -11,7 +11,6 @@ module.exports = {
         'object-rest-spread'
       ]
     },
-    'dedent',
     {
       prefix: 'transform-',
       items: [
